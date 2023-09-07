@@ -1,0 +1,106 @@
+html {
+    max-width: var(max-width-size);
+}
+
+body {
+    background-image: url(../images/bg-desktop.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-color: var(--primary-color);
+    color: #ffffff;
+}
+
+header {
+    margin-left: 8%;
+    padding-top: 2%;
+}
+
+main {
+    margin: 0 2%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.image img {
+    padding-top: 5%;
+}
+
+.text {
+    padding-bottom: 8%;
+    padding-left: 4%;
+}
+
+.text h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 2.5rem;
+    padding-bottom: 30px;
+    max-width: 500px;
+}
+
+.text p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 25px;
+    padding-bottom: 40px;
+    max-width: 460px;
+}
+
+.btn {
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn a {
+    padding: 15px 60px;
+    border-radius: 1.5rem;
+    background-color: #ffffff;
+    color: var(--primary-color);
+    transition: 0.3s;
+}
+
+.btn a:hover {
+    background-color: var(--second-color);
+    color: #ffffff;
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.social {
+    display: flex;
+    margin-right: 12%;
+}
+
+.social a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    color: #ffffff;
+    border: 2px solid;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+.social i {
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.social a:hover {
+    color: var(--second-color);
+    cursor: pointer;
+}
