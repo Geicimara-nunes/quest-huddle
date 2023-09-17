@@ -1,3 +1,24 @@
+@media (min-width: 1920px){
+    header {
+        margin-left: 16%;
+        padding-top: 5%;
+    }
+
+    main {
+        margin: 7% 3% 6%;
+    }
+
+    .social {
+        margin-bottom: 15%;
+        margin-right: 20%;
+    }
+
+    footer{
+        height: 100px;
+    }
+
+}
+
 @media (max-width: 1200px) {
 
     header {
