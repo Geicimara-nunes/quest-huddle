@@ -2,7 +2,7 @@
 
 Este é um projeto de landing page baseado em um desafio do Frontend Mentor. 
 
-[<img src="./readme-images/tela-huddle.png" alt="imagem da landing page">] (htpps://)
+[<img src="./readme-images/tela-huddle.png" alt="imagem da landing page">] (https://github.com/Geicimara-nunes/quest-huddle.git)
 
 
 ## O Projeto
